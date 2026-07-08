@@ -22,3 +22,7 @@ venv/
 # Editor files
 .vscode/
 .idea/
+
+# Private project notes
+_me/
+PROJECT.md
