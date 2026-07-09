@@ -106,7 +106,7 @@ def update_user(
     if user is None:
         raise HTTPException(
             status_code=status.HTTP_404_NOT_FOUND,
-            details="User not found."
+            detail="User not found."
         )
     
     update_data = user_update.model_dump(exclude_unset=True)
